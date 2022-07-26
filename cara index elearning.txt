@@ -1,0 +1,29 @@
+mysql> CREATE INDEX kode_encrypt_idx ON pas_trx (kode_soal, nis, flag_hitung_nilai, tahun_ajaran, sekolah,unit,kode_encrypt);
+Query OK, 5137 rows affected (0.08 sec)
+Records: 5137  Duplicates: 0  Warnings: 0
+
+mysql> CREATE INDEX auth_idx ON mst_siswa (nis,password_apps);
+Query OK, 1882 rows affected (0.06 sec)
+Records: 1882  Duplicates: 0  Warnings: 0
+
+mysql> CREATE INDEX trx_absensi_idx ON trx_absensi_siswa (nis,tahun_ajaran,bulan_angka);
+Query OK, 1696 rows affected (0.03 sec)
+Records: 1696  Duplicates: 0  Warnings: 0
+
+mysql> CREATE INDEX trx_active_login_idx ON trx_active_login_siswa (nis);
+Query OK, 2875 rows affected (0.03 sec)
+Records: 2875  Duplicates: 0  Warnings: 0
+
+mysql> CREATE INDEX mst_guru_idx ON mst_guru(email_guru,password_apps);
+Query OK, 108 rows affected (0.01 sec)
+Records: 108  Duplicates: 0  Warnings: 0
+
+mysql> CREATE INDEX trx_absensi_guru_idx ON trx_absensi_guru(email_guru,tahun_ajaran,bulan_angka);
+Query OK, 269 rows affected (0.02 sec)
+Records: 269  Duplicates: 0  Warnings: 0
+
+mysql> CREATE INDEX trx_active_login_guru_idx ON trx_active_login_guru(email_guru);
+Query OK, 682 rows affected (0.01 sec)
+Records: 682  Duplicates: 0  Warnings: 0
+
+mysql>
