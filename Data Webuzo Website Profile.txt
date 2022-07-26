@@ -1,0 +1,114 @@
+posisi configurasi : /usr/local/apps/apache/etc/conf.d/
+passwd root:
+rinnytrissyahia@-++
+passwd user ridwan:
+maulanaR@321
+
+data webuzo : 
+username= rinnytrissyahia
+email = ridwan.maulana@gsp.co.id
+pass =rinnytrissyahia@321
+domain = sitqordova.sch.id
+ns = ns1.niagahoster.com
+ns= ns2.niagahoster.com
+license = webuzo-22667-88474-70576-84035
+
+IP : 156.67.218.21
+port : 3002
+IP webbuzo : http://156.67.218.21:2002/
+
+license webuzo : webuzo-22667-88474-70576-84035
+DOMAIN :sitqordova.sch.id
+NS = ns1.niagahoster.com
+NS = ns3.niagahoster.com
+
+rinnytrissyahia@321
+
+data webuzo : 
+username= rinnytrissyahia
+email = ridwan.maulana@gsp.co.id
+pass =rinnytrissyahia@321
+domain = sitqordova.sch.id
+ns = ns1.niagahoster.com
+ns= ns2.niagahoster.com
+license = webuzo-22667-88474-70576-84035
+
+IP : 156.67.218.21
+license webuzo : webuzo-22667-88474-70576-84035
+DOMAIN :sitqordova.sch.id
+NS = ns1.niagahoster.com
+NS = ns3.niagahoster.com
+
+rinnytrissyahia@321
+
+data webuzo : 
+username= rinnytrissyahia
+email = ridwan.maulana@gsp.co.id
+pass =rinnytrissyahia@321
+domain = sitqordova.sch.id
+ns = ns1.niagahoster.com
+ns= ns2.niagahoster.com
+license = webuzo-22667-88474-70576-84035
+bobby = tuk1m1nm41nk3p4s4R@-++
+phpmyadmin
+root = HHiRW5UgQTsYEnQY0zfqmLWlvJjZnf9n
+
+ridwan_ftp_sitqordova.sch.id
+t4ijo0v@Qw
+
+Directory : /home/rinnytrissyahia/public_html
+
+------------------------------------------->
+VPS CLOUD BARU
+IP : 185.210.144.144
+user : root
+password : RINNYtrissyahia@321
+
+WEBUZO
+URL Login: http://185.210.144.144:2002
+Username : rinnytrissyahia
+password : rinnytrissyahia@321
+
+Database 
+cat /var/webuzo/my.conf
+username : root
+password : 0WnXaCCFVyvFfRwMUkfnx5TbExSMlR0I
+
+
+memperbesar max_allowed_packet untuk dump mysql
+nano /etc/my.cnf
+
+datadir=/var/lib/mysql
+socket=/var/lib/mysql/mysql.sock
+
+# Disabling symbolic-links is recommended to prevent assorted security risks
+symbolic-links=0
+
+log-error=/var/log/mysqld.log
+pid-file=/var/run/mysqld/mysqld.pid
+max_allowed_packet = 512M
+
+cara restart mysql : 
+sudo service mysql restart
+
+cara import database :
+mysql -u root -p sit_qordova < sit_qordova.sql
+
+mysql -u root -p db_dpt < db_dpt.sql
+
+cara 
+mysql -u root -p sit_qordova > sit_qordova_backup.sql
+
+
+
+directory : /home/rinnytrissyahia/public_html
+
+
+JIKA PADA SAAT ERROR NOT FOUND TINGGAL UBAH AJA 
+chown -R 1000:1000 *
+
+
+
+
+<<!----- CREATED YII -----!>>
+C:\xampp\php>php.exe C:\xampp\htdocs\HRCapitol\yii-core\framework\yiic webapp C:\xampp\htdocs\HRCapitol
